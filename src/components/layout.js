@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { Helmet } from "react-helmet"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
@@ -24,6 +25,18 @@ const Layout = ({ location, title, children }) => {
     <div className="global-wrapper" data-is-root-path={isRootPath}>
       <header className="global-header">{header}</header>
       <main>{children}</main>
+
+      <section>
+        <div data-mc-src="da67f993-b90b-4bcc-9666-fcd90a979394#instagram"></div>
+        <Helmet>
+          <script
+            src="https://cdn.front10.net/front10/runtime/1.0.40/usrc-lite/a.js#60ed91f07550f200151dbbfd"
+            async
+            data-usrc
+          ></script>
+        </Helmet>
+      </section>
+
       <footer>
         © {new Date().getFullYear()}, Built with
         {` `}
