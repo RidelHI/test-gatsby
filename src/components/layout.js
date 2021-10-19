@@ -30,7 +30,7 @@ const Layout = ({ location, title, children }) => {
         <div data-mc-src="da67f993-b90b-4bcc-9666-fcd90a979394#instagram"></div>
         <Helmet>
           <script
-            src="https://cdn.front10.net/front10/runtime/1.0.40/usrc-lite/a.js#60ed91f07550f200151dbbfd"
+            src="https://cdn.front10.net/front10/runtime/1.0.41/usrc-lite/a.js#5fa1d546cf62c90017d81abd"
             async
             data-usrc
           ></script>
