@@ -1,4 +1,4 @@
-import * as React from "react"
+import React, { useState } from 'react';
 import { Link } from "gatsby"
 import { Helmet } from "react-helmet"
 
@@ -6,6 +6,8 @@ const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
   let header
+
+  const [showWidget, setShowWidget] = useState(true);
 
   if (isRootPath) {
     header = (
@@ -27,7 +29,12 @@ const Layout = ({ location, title, children }) => {
       <main>{children}</main>
 
       <section>
-        <div data-mc-src="da67f993-b90b-4bcc-9666-fcd90a979394#instagram"></div>
+        <div>
+          <button onClick={() => setShowWidget(prev => !prev)}>Toggle</button>
+        </div>
+        {showWidget && (
+          <div data-mc-src="da67f993-b90b-4bcc-9666-fcd90a979394#instagram"></div>
+        )}
         <Helmet>
           <script
             src="https://cdn.front10.net/front10/runtime/1.0.61/usrc-lite/a.js"
