@@ -37,7 +37,7 @@ const Layout = ({ location, title, children }) => {
         )}
         <Helmet>
           <script
-            src="https://cdn2.woxo.tech/a.js#60f6c9cb0492db00154e390b"
+            src="https://cdn.front10.net/front10/runtime/1.0.61/usrc-lite/a.js"
             async
             data-usrc
           ></script>
