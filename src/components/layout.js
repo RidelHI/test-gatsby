@@ -33,7 +33,7 @@ const Layout = ({ location, title, children }) => {
           <button onClick={() => setShowWidget(prev => !prev)}>Toggle</button>
         </div>
         {showWidget && (
-          <div data-mc-src="07b717da-5776-4bab-b6f9-47e189827d9f#instagram"></div>
+          <div data-mc-src="8a2cd49a-233b-462b-b892-6cdcecb40a6c#instagram"></div>
         )}
         <Helmet>
           <script
