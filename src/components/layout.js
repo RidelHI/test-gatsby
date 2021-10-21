@@ -33,14 +33,13 @@ const Layout = ({ location, title, children }) => {
           <button onClick={() => setShowWidget(prev => !prev)}>Toggle</button>
         </div>
         {showWidget && (
-          <div data-mc-src="8a2cd49a-233b-462b-b892-6cdcecb40a6c#instagram"></div>
+          <div data-mc-src="a1a7b5c6-4386-4cf3-a790-6c2e82818baf#instagram"></div>
         )}
         <Helmet>
-          <script
-            src="https://cdn.front10.net/front10/runtime/1.0.61/usrc-lite/a.js"
-            async
-            data-usrc
-          ></script>
+          <script 
+          src="https://cdn.front10.net/front10/runtime/1.0.61/usrc-lite/a.js" 
+          async data-usrc>
+        </script>
         </Helmet>
       </section>
 
