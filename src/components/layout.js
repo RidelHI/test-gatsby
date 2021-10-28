@@ -34,6 +34,7 @@ const Layout = ({ location, title, children }) => {
         </div>
         {showWidget && (
           <div>
+            <div data-mc-src="0257c547-9097-4a93-a72a-9d2b14b75b49#facebook"></div>
             <div
               loading="lazy"
               data-mc-src="3087aa44-3224-4f0b-9f85-580f7bc56dd9#instagram"
@@ -114,8 +115,6 @@ const Layout = ({ location, title, children }) => {
             async
             data-usrc
           ></script>
-
-          <div data-mc-src="0257c547-9097-4a93-a72a-9d2b14b75b49#facebook"></div>
 
           <script
             src="https://cdn.front10.net/front10/runtime/1.0.61/usrc-lite/a.js#60b631158b9c1f00157e8f9b"
